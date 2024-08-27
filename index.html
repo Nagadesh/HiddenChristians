@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hidden Christians</title>
     <link href="https://cdn.tailwindcss.com?plugins=forms,container-queries" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Noto+Sans&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 
-<body class="bg-[#211e12] text-white font-sans">
+<body class="bg-[#211e12] text-white font-sans min-h-screen flex flex-col">
     <!-- Header -->
     <header class="border-b border-[#463e25] px-10 py-4">
         <div class="flex justify-between items-center">
@@ -24,7 +31,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="relative bg-cover bg-center h-[600px] flex items-center justify-center"
+    <section class="relative bg-cover bg-center h-[600px] w-full flex items-center justify-center"
         style="background-image: url('https://cdn.usegalileo.ai/sdxl10/1223cf15-4aa7-4717-82c3-246d7e54075e.png');">
         <div class="bg-black bg-opacity-50 p-10 rounded-lg text-center">
             <h2 class="text-4xl font-bold mb-4">Explore the Hidden Christians</h2>
@@ -36,7 +43,7 @@
     </section>
 
     <!-- Book Section -->
-    <section class="px-10 py-10">
+    <section class="px-10 py-10 w-full">
         <h3 class="text-2xl font-bold mb-6">Books</h3>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Book 1 -->
@@ -52,7 +59,7 @@
     </section>
 
     <!-- Featured Products -->
-    <section class="px-10 py-10 bg-[#292521]">
+    <section class="px-10 py-10 bg-[#292521] w-full">
         <h3 class="text-2xl font-bold mb-6">Featured Products</h3>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Product 1 -->
@@ -68,7 +75,7 @@
     </section>
 
     <!-- Newsletter Section -->
-    <section class="px-10 py-20 bg-[#1c1914]">
+    <section class="px-10 py-20 bg-[#1c1914] w-full">
         <div class="max-w-3xl mx-auto text-center">
             <h3 class="text-3xl font-bold mb-6">Subscribe to our Newsletter</h3>
             <p class="mb-8">Be the first to know about new products, events, and more</p>
@@ -82,7 +89,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6">
+    <footer class="text-center py-6 bg-[#211e12] w-full">
         <p>&copy; 2024 Hidden Christians. All rights reserved.</p>
     </footer>
 </body>
