@@ -1,0 +1,148 @@
+  <a href="https://cdn.tailwindcss.com?plugins=forms,container-queries">https://cdn.tailwindcss.com?plugins=forms,container-queries</a>
+  
+  
+    <div class="relative flex size-full min-h-screen flex-col bg-[#211e12] dark group/design-root overflow-x-hidden" style='font-family: "Noto Serif", "Noto Sans", sans-serif'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#463e25] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              
+                
+                
+              
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Hidden Christians</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Shop</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Pray</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Read</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Explore</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Give</a>
+            </div>
+            <div class="flex gap-2">
+              
+                <div class="text-white">
+                  
+                    
+                  
+                </div>
+              
+              
+                <div class="text-white">
+                  
+                    
+                  
+                </div>
+              
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-end px-4 pb-10 @[480px]:px-10" style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://cdn.usegalileo.ai/sdxl10/1223cf15-4aa7-4717-82c3-246d7e54075e.png")'>
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                      Explore the Hidden Christians
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Discover a rich history and vibrant faith
+                    </h2>
+                  </div>
+                  
+                    <span class="truncate">Explore Now</span>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/f3e5cedf-8d17-488c-911d-7bfebab21ec3.png")'></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">The Hidden Christians</p>
+                  <p class="text-[#c6ba95] text-sm font-normal leading-normal">by John Dougall</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/d1618560-58b4-4ae9-934c-e1743b6d596c.png")'></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">A Hidden Faith</p>
+                  <p class="text-[#c6ba95] text-sm font-normal leading-normal">by John Dougall</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/e0649346-692d-486f-b6a0-62bd4fa12c97.png")'></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">The Hidden Christians</p>
+                  <p class="text-[#c6ba95] text-sm font-normal leading-normal">by John Dougall</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Products</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/a5cf74ff-18ee-489e-9b81-4b9cba401be7.png")'></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">The Hidden Christians</p>
+                  <p class="text-[#c6ba95] text-sm font-normal leading-normal">$19.99</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/b3f757e7-ab1b-4efe-beaa-fbf8349006d2.png")'></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">A Hidden Faith</p>
+                  <p class="text-[#c6ba95] text-sm font-normal leading-normal">$19.99</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/aa05ae4a-70b1-4124-b466-5b3b4c34781f.png")'></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">The Hidden Christians</p>
+                  <p class="text-[#c6ba95] text-sm font-normal leading-normal">$19.99</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/ea41be95-54de-49a6-8e3b-546a16801494.png")'></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">The Hidden Christians</p>
+                  <p class="text-[#c6ba95] text-sm font-normal leading-normal">$19.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="@container">
+              <div class="flex flex-col gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row">
+                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/be8f611a-428f-412d-bd04-d16c19218e98.png")'></div>
+                <div class="flex flex-col gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                      Subscribe to our Newsletter
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Be the first to know about new products, events, and more
+                    </h2>
+                  </div>
+                  
+                    <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                      <div class="text-[#c6ba95] flex border-none bg-[#463e25] items-center justify-center pl-4 rounded-l-lg border-r-0">
+                        
+                          
+                        
+                      </div>
+                      
+                      <div class="flex items-center justify-center rounded-r-lg border-l-0 border-none bg-[#463e25] pr-2">
+                        
+                          <span class="truncate">Subscribe</span>
+                        
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
