@@ -11,27 +11,32 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: 'Noto Sans', sans-serif;
         }
     </style>
 </head>
 
-<body class="bg-[#211e12] text-white font-sans min-h-screen flex flex-col">
+<body class="bg-[#211e12] text-white font-sans">
     <!-- Header -->
     <header class="border-b border-[#463e25] px-10 py-4">
         <div class="flex justify-between items-center">
             <h1 class="text-lg font-bold">Hidden Christians</h1>
             <nav class="space-x-6">
-                <a href="#" class="text-sm">Shop</a>
-                <a href="#" class="text-sm">Pray</a>
-                <a href="#" class="text-sm">Read</a>
-                <a href="#" class="text-sm">Explore</a>
-                <a href="#" class="text-sm">Give</a>
+                <a href="#" class="text-sm hover:text-yellow-500">Shop</a>
+                <a href="#" class="text-sm hover:text-yellow-500">Pray</a>
+                <a href="#" class="text-sm hover:text-yellow-500">Read</a>
+                <a href="#" class="text-sm hover:text-yellow-500">Explore</a>
+                <a href="#" class="text-sm hover:text-yellow-500">Give</a>
             </nav>
+            <div class="space-x-4">
+                <a href="#" class="hover:text-yellow-500"><i class="fas fa-search"></i></a>
+                <a href="#" class="hover:text-yellow-500"><i class="fas fa-shopping-cart"></i></a>
+            </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="relative bg-cover bg-center h-[600px] w-full flex items-center justify-center"
+    <section class="relative bg-cover bg-center h-[600px] flex items-center justify-center"
         style="background-image: url('https://cdn.usegalileo.ai/sdxl10/1223cf15-4aa7-4717-82c3-246d7e54075e.png');">
         <div class="bg-black bg-opacity-50 p-10 rounded-lg text-center">
             <h2 class="text-4xl font-bold mb-4">Explore the Hidden Christians</h2>
@@ -43,7 +48,7 @@
     </section>
 
     <!-- Book Section -->
-    <section class="px-10 py-10 w-full">
+    <section class="px-10 py-10">
         <h3 class="text-2xl font-bold mb-6">Books</h3>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Book 1 -->
@@ -54,12 +59,27 @@
                 <p class="text-lg font-medium">The Hidden Christians</p>
                 <p class="text-[#c6ba95] text-sm">by John Dougall</p>
             </div>
-            <!-- Repeat for more books -->
+            <!-- Book 2 -->
+            <div class="bg-cover bg-center h-80 rounded-lg"
+                style="background-image: url('https://cdn.usegalileo.ai/sdxl10/d1618560-58b4-4ae9-934c-e1743b6d596c.png');">
+            </div>
+            <div class="text-center">
+                <p class="text-lg font-medium">A Hidden Faith</p>
+                <p class="text-[#c6ba95] text-sm">by John Dougall</p>
+            </div>
+            <!-- Book 3 -->
+            <div class="bg-cover bg-center h-80 rounded-lg"
+                style="background-image: url('https://cdn.usegalileo.ai/sdxl10/e0649346-692d-486f-b6a0-62bd4fa12c97.png');">
+            </div>
+            <div class="text-center">
+                <p class="text-lg font-medium">The Hidden Christians</p>
+                <p class="text-[#c6ba95] text-sm">by John Dougall</p>
+            </div>
         </div>
     </section>
 
     <!-- Featured Products -->
-    <section class="px-10 py-10 bg-[#292521] w-full">
+    <section class="px-10 py-10 bg-[#292521]">
         <h3 class="text-2xl font-bold mb-6">Featured Products</h3>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Product 1 -->
@@ -70,12 +90,35 @@
                 <p class="text-lg font-medium">The Hidden Christians</p>
                 <p class="text-[#c6ba95] text-sm">$19.99</p>
             </div>
-            <!-- Repeat for more products -->
+            <!-- Product 2 -->
+            <div class="bg-cover bg-center h-80 rounded-lg"
+                style="background-image: url('https://cdn.usegalileo.ai/sdxl10/b3f757e7-ab1b-4efe-beaa-fbf8349006d2.png');">
+            </div>
+            <div class="text-center">
+                <p class="text-lg font-medium">A Hidden Faith</p>
+                <p class="text-[#c6ba95] text-sm">$19.99</p>
+            </div>
+            <!-- Product 3 -->
+            <div class="bg-cover bg-center h-80 rounded-lg"
+                style="background-image: url('https://cdn.usegalileo.ai/sdxl10/aa05ae4a-70b1-4124-b466-5b3b4c34781f.png');">
+            </div>
+            <div class="text-center">
+                <p class="text-lg font-medium">The Hidden Christians</p>
+                <p class="text-[#c6ba95] text-sm">$19.99</p>
+            </div>
+            <!-- Product 4 -->
+            <div class="bg-cover bg-center h-80 rounded-lg"
+                style="background-image: url('https://cdn.usegalileo.ai/sdxl10/ea41be95-54de-49a6-8e3b-546a16801494.png');">
+            </div>
+            <div class="text-center">
+                <p class="text-lg font-medium">The Hidden Christians</p>
+                <p class="text-[#c6ba95] text-sm">$19.99</p>
+            </div>
         </div>
     </section>
 
     <!-- Newsletter Section -->
-    <section class="px-10 py-20 bg-[#1c1914] w-full">
+    <section class="px-10 py-20 bg-[#1c1914]">
         <div class="max-w-3xl mx-auto text-center">
             <h3 class="text-3xl font-bold mb-6">Subscribe to our Newsletter</h3>
             <p class="mb-8">Be the first to know about new products, events, and more</p>
@@ -89,7 +132,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6 bg-[#211e12] w-full">
+    <footer class="text-center py-6 bg-[#211e12]">
         <p>&copy; 2024 Hidden Christians. All rights reserved.</p>
     </footer>
 </body>
